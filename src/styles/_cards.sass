@@ -1,0 +1,35 @@
+.cards
+  width: 60%
+  margin: 0 auto
+  @media(max-width: 740px)
+    width: 80%
+  @media(max-width: 480px)
+    width: 95%
+  li
+    background-color: #fff
+    border-radius: 4px
+    box-shadow: 1px 2px 8px #ccc
+    margin: 20px 0
+    a
+      display: block
+      padding: 8px 10px
+      font-weight: normal
+      cursor: pointer
+      &:hover
+        background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,252,1) 50%, rgb(239, 244, 247) 50%, rgb(239, 244, 247) 100%)
+        color: #888
+      h3
+        margin: 0
+        word-wrap: break-word
+        @media(max-width: 526px)
+          font-size: rem(20)
+      footer
+        display: flex
+        align-content: center
+        justify-content: flex-end
+        flex-wrap: wrap
+        p
+          padding: 5px 10px
+          border: 1px dashed #888
+          margin-right: 10px
+          border-radius: 10px
