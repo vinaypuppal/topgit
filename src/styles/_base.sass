@@ -1,0 +1,102 @@
+// breakpoints
+$S:     480px
+$M:     768px
+$L:     1024px
+$XL:    1440px
+
+// media queries
+@mixin MQ($canvas)
+  @if $canvas == S
+    @media only screen and (min-width: $S)
+      @content
+  @else if $canvas == M
+    @media only screen and (min-width: $M)
+      @content
+  @else if $canvas == L
+    @media only screen and (min-width: $L)
+      @content
+  @else if $canvas == XL
+    @media only screen and (min-width: $XL)
+      @content
+
+html, body
+  width: 100%
+  min-height: 100%
+  min-height: 100vh
+  box-sizing: border-box
+
+*, *:before, *:after
+  box-sizing: inherit
+
+body
+  background-color: #f9f9f9
+  color: #888
+  letter-spacing: 2px
+  line-height: 1.4
+  font-family: 'Dosis', sans-serif
+  margin: 0
+  padding: 0
+  position: relative
+
+h1,h2,h3,h4,h5,h6
+  margin-top: rem(10)
+  margin-bottom: 0
+
+h1, .alpha
+  font-size: rem(42)
+  +MQ(M)
+    font-size: rem(61)
+
+h2, .beta
+  font-size: rem(35)
+  +MQ(M)
+    font-size: rem(51)
+
+h3, .gamma
+  font-size: rem(31)
+  +MQ(M)
+    font-size: rem(35)
+
+h4, .delta
+  font-size: rem(18)
+  +MQ(M)
+    font-size: rem(21)
+
+h5, .epsilon
+  font-size: rem(18)
+
+h6, .zeta
+  font-size: rem(16)
+
+p
+  font-size: rem(15)
+
+.important
+  font-size: rem(21)
+  font-weight: 600
+
+a
+  text-decoration: none
+  color: #666
+  font-weight: 600
+  transition: all 0.25s
+  &:hover
+    color: #ef4925
+
+ul
+  padding: 0
+  margin: 0
+  list-style: none
+
+.text-center
+  text-align: center
+
+.container
+  max-width: $XL
+  margin: 0 auto
+  z-index: 1
+  position: relative
+
+footer
+  p
+    margin: 0

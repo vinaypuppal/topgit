@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './main.sass';
+import WebFont from 'webfontloader';
+import './styles/main.sass';
+import Layout from './components/layout';
 
-const App = () => {
-	return(
-		<div>
-			<h1>Hello World!</h1>
-		</div>
-	);
-}
+WebFont.load({
+  google: {
+    families: ['Dosis:400,600'],
+  },
+});
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Layout />, document.getElementById('root'));
