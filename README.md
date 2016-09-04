@@ -1,3 +1,57 @@
+[![builtbadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://topgit.vinaypuppal.com)
+[![demobadge](https://img.shields.io/badge/Demo-clickhere-green.svg)](https://topgit.vinaypuppal.com)
+
+## Installation
+
+This project used following FrontEnd Libraries and tools
+- [React](http://facebook.github.io/react) For View Layer
+- [Sass](http://sass-lang.com) CSS preprocess
+- [autoprefixer](https://github.com/postcss/autoprefixer) A PostCSS for CSS vendor Prefixing
+- [hj-webpack](https://github.com/HenrikJoreteg/hjs-webpack) Helpers/presets for setting up webpack with hotloading react and ES6(2015) using Babel.
+
+## To run this project Locally
+
+First Clone this repoistory https://github.com/vinaypuppal/topgit.git
+
+Check if you have NodeJs installing locally by running below command
+
+```
+node -v
+```
+
+You should now see the version of your current Node installation.
+
+If NodeJs is not installed then install the latest version of [NodeJS](https://nodejs.org). Once you have installed it, you can verify it is correctly installed by running above command again.
+
+Now `cd` into cloned repoistory
+
+And install the necessary dependencies for the project with
+
+```
+npm i
+```
+
+This command will install all the dependencies listed in package.json.
+
+To run local server, run
+
+```
+npm start
+```
+The default server is `http://localhost:3000`.
+
+You are now ready to go!
+
+Open `http://localhost:3000` in your browser to view running App.
+
+And To build the project use
+
+```
+npm run build
+```
+Then the built project can be found in `dist/` folder.
+
+---
 # SAP Labs Frontend Hiring Challenge
 
 04 Sept, 2016

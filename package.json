@@ -6,6 +6,7 @@
   "scripts": {
     "start": "hjs-dev-server",
     "build": "NODE_ENV=production webpack",
+    "push": "git push origin master",
     "deploy": "npm run build && surge -p dist -d topgit.vinaypuppal.com"
   },
   "author": "VinayPuppal <me@vinaypuppal.com>",
