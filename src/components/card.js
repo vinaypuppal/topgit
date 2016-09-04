@@ -9,10 +9,10 @@ const card = (props) => (
       </p>
       <footer>
         <p>
-          <strong>Language: </strong> {props.language}
+          <strong>&#9885; Language: </strong> {props.language}
         </p>
         <p>
-          <strong>Stars: </strong> {props.stars}
+          <strong>&#9733; Stars: </strong> {props.stars}
         </p>
       </footer>
     </a>
