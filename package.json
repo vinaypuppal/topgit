@@ -2,6 +2,10 @@
   "name": "topgit",
   "version": "1.0.0",
   "description": "Develop a pseudo front end application which would let the users help list and browse top github projects conveniently.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinaypuppal/topgit.git"
+  },
   "main": "app.js",
   "scripts": {
     "start": "hjs-dev-server",

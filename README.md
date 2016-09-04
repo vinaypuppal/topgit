@@ -1,6 +1,10 @@
 [![builtbadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://topgit.vinaypuppal.com)
 [![demobadge](https://img.shields.io/badge/Demo-clickhere-green.svg)](https://topgit.vinaypuppal.com)
 
+## To view this project locally
+
+Click [here](https://github.com/vinaypuppal/topgit/archive/master.zip) then download the .zip file. Extract the contents of the zip file, open `dist\` folder and then open `index.html` to view app in browser.
+
 ## Installation
 
 This project used following FrontEnd Libraries and tools
