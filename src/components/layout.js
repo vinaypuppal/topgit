@@ -213,7 +213,7 @@ class App extends React.Component {
             Made With &hearts; By <a href='https://www.vinaypuppal.com' target='_blank'>VinayPuppal</a>
           </p>
           <p className='text-center'>
-            &#9755; <a href='https://www.github.com/vinaypuppal/topgit'>Source Code</a> &#9754;
+            &#9755; <a href='https://www.github.com/vinaypuppal/topgit' target='_blank'>Source Code</a> &#9754;
           </p>
         </footer>
       </div>
