@@ -13,7 +13,7 @@ This project used following FrontEnd Libraries and tools
 
 First Clone this repoistory https://github.com/vinaypuppal/topgit.git
 
-Check if you have NodeJs installing locally by running below command
+Check if you have NodeJs installed locally by running below command
 
 ```
 node -v
