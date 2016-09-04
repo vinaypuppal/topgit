@@ -207,6 +207,9 @@ class App extends React.Component {
         </div>
         <footer>
           <p className='text-center'>
+            You can find all my other awesome projects at my site <a href='https://www.vinaypuppal.com' target='_blank'>https://www.vinaypuppal.com</a>
+          </p>
+          <p className='text-center'>
             Made With &hearts; By <a href='https://www.vinaypuppal.com' target='_blank'>VinayPuppal</a>
           </p>
           <p className='text-center'>
