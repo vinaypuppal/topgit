@@ -74,36 +74,36 @@ Develop a pseudo front end application which would let the users help list and b
 
 Use of Web API to fetch problems detail. Utilise API parameter: q=stars:>=500 language:php
 
-- stars — number of stars given to respective repository
-- language — programming language used in repository
+- [x] stars — number of stars given to respective repository
+- [x] language — programming language used in repository
 
 Utilise Response Parameters:
-- repos[] —[ total_count, items[] — full_name, html_url, description, language ].
-- Visually interactive responsive design listing all the repositories.
+- [x] repos[] —[ total_count, items[] — full_name, html_url, description, language ].
+- [x] Visually interactive responsive design listing all the repositories.
 
 #### Plus Point
 
-- A feature to Search (via language).
+- [x] A feature to Search (via language).
 
-- Implement Seek feature (to filter result through range of Stars given to repositories).
+- [ ] Implement Seek feature (to filter result through range of Stars given to repositories).
 
-- Display and integrate repository details including name, html_url, description, and language.
+- [x] Display and integrate repository details including name, html_url, description, and language.
 
-- Link html_url to Github’s repo URL. (Should open in new window | target="_blank")
+- [x] Link html_url to Github’s repo URL. (Should open in new window | target="_blank")
 
-- Feel free to use your favourite UI/UX frameworks and tools in design and development.
+- [x] Feel free to use your favourite UI/UX frameworks and tools in design and development.
 
 #### Extra Work
 
-- Display and keep track of response Header X-RateLimit-Remaining / X-RateLimit-Limit.
+- [ ] Display and keep track of response Header X-RateLimit-Remaining / X-RateLimit-Limit.
 
-- Add autocomplete feature to Search programming languages conveniently .
+- [x] Add autocomplete feature to Search programming languages conveniently .
 
-- Custom elegant design, fonts and icons to make web app more user-friendly.
+- [x] Custom elegant design, fonts and icons to make web app more user-friendly.
 
-- You may add portfolio activity comprising awesome work you have done on web application(s).
+- [x] You may add portfolio activity comprising awesome work you have done on web application(s).
 
-- Use your imagination and add features which would make things easier for end users.
+- [x] Use your imagination and add features which would make things easier for end users.
 
 ---
 
