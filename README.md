@@ -55,6 +55,8 @@ npm run build
 ```
 Then the built project can be found in `dist/` folder.
 
+**Note:** After building the project locally edit `index.html` to add title, meta tags and fix relative paths of both `CSS` and `JS` files linked to view locally. **No need to fix relative paths if deploying to server.**
+
 ---
 # SAP Labs Frontend Hiring Challenge
 
