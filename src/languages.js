@@ -2,8 +2,6 @@ export default[
   'JavaScript',
   'HTML',
   'CSS',
-  'HTML5',
-  'CSS3',
   'ES6',
   'JAVA',
   'Python',
