@@ -80,7 +80,11 @@ class App extends React.Component {
       error: '',
     });
   }
-
+  onKeyDown(e) {
+    if (e.keyCode === 13) {
+      this.onSuggestionSelected(e, { suggestionValue: this.state.value });
+    }
+  }
   // On user selects a suggestion fetch repos
   onSuggestionSelected(event, { suggestionValue }) {
     this.setState({
@@ -175,6 +179,7 @@ class App extends React.Component {
       placeholder: 'Search By Language',
       value,
       onChange: this.onChange.bind(this),
+      onKeyDown: this.onKeyDown.bind(this),
     };
 
     return (
